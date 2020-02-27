@@ -1,0 +1,27 @@
+{
+  "name": "layouthtmlcss",
+  "version": "1.0.0",
+  "description": "học 1 chút về layout HTML và CSS\r https://tapchilaptrinh.vn/2012/08/10/thiet_ke_bo_cuc_web_div_css/",
+  "main": "index.js",
+  "dependencies": {
+    "ejs": "^3.0.1",
+    "eslint-config-rallycoding": "^3.2.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js -w js,ejs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anhtuanit1999/layoutHTMLCSS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anhtuanit1999/layoutHTMLCSS/issues"
+  },
+  "homepage": "https://github.com/anhtuanit1999/layoutHTMLCSS#readme"
+}
