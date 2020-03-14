@@ -2,18 +2,21 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
 }
+
 #main {
     width: auto;
     padding: 0;
     margin-left: auto;
     margin-right: auto;
 }
+
 #head {
     height: 100px;
     background-color: #F5F5F5;
     border: 1px solid aquamarine;
     margin-bottom: 5px;
 }
+
 #head-link {
     height: 30px;
     line-height: 30px;
@@ -24,6 +27,7 @@ body {
     margin-bottom: 5px;
     clear: both;
 }
+
 #left {
     width: 150px;
     min-height: 400px;
@@ -32,6 +36,7 @@ body {
     background-color: #004C00;
     margin-bottom: 5px;
 }
+
 #content {
     width: 591px;
     min-height: 400px;
@@ -41,6 +46,7 @@ body {
     margin-right: 5px;
     margin-bottom: 5px;
 }
+
 #right {
     width: 234px;
     min-height: 400px;
@@ -48,9 +54,30 @@ body {
     float: right;
     margin-bottom: 5px;
 }
+
 #footer {
     height: 50px;
     clear: both;
     border: 1px solid aquamarine;
     background-color: tomato;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: left;
+    padding: 16px;
+    text-decoration: none;
 }
